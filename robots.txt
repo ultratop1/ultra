@@ -1,11 +1,2 @@
-User-agent: Yandex
-Disallow: /?s=
-Disallow: /index1.html
-
-
 User-agent: *
-Disallow: /?s=
-Disallow: /index1.html
-
-Host: ultratop.ua
-Sitemap: https://ultratop.ua/sitemap.xml
+Disallow: /
