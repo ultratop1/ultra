@@ -1,0 +1,12 @@
+<?php
+
+$domain = 'dieton'; // субдомен AmoCRM
+$api = ''; //Api ключ AmoCRM
+$login = ''; //  Логин email администратора 
+
+$clientId = 'd5cd34b5-b5d8-46e5-b247-2f3dc74168a6';
+$clientSecret = 'EC6dh78Dyi52CWE6yrVDz7nXRhHXWdthKjGAuXBGoV05s4OjMRrkutWUMHwpOnzX';
+$amoHost = 'https://'.$domain.'.amocrm.ru/';
+$tokenFile = 'tmp/' . md5($amoHost . $clientId) . '.txt';
+$authCode = 'def5020072ec55ccb6d3c272b520c8dc0cec89b8a4bba3388609897739d99f39e97ec5511e78e6a7de3bcbb4ac1a34fdfa8e543e1eb79fb2e13e8b7987848e77369c5ebb6fc0477004f618309dfc714d834b24fbc8f8ab2f2872d7b9fb981df4fa50625a929fb9b65c8cad4846a10557925a0ccf51b49bcdb9495c98a8fb1a707bb406e7c3e3ceb91ffa0f3d6c61b196b622c8be6b8e423b6e794683da17a5ad760aa919335c142194fc867d1093747acb2c5eb4d963cf1b4af5831ba7753e27b5a995b391d18124233f62b6d379b5dd3cd5c5a06a6884918640a2c8754abff37cfa3741af98d97f987148e3fb0d4c39bf3ff7e12dc99a220c0b053719674e43ccfe88f96aa390a29dac610e070a16baad573c6735ad2174ac4022c99b365bc88834a80f44839bd0d2e0793a715e559ec4486c28042c0dfe289b0872cb64a89d7d5cf465c19905127e0dffcab9656e3eeeb5adc912f5d52c6f238d514a84b20919b7bc489d9fe683e76c8c0bfc96c4a8ac19575ceaee4fe1e554d15b7ca99c1b8d11221d1d3af935787e7aed26482e1ee5d3872394b0b5fee74d5eb04db71bf50f32fc3d8c530c6de6cd5d810b559b33751acf9a7e0715cb50ffadab3972e4ca1080e835';
+$redirectUri = 'https://dieton.amocrm.ru/';
